@@ -2,22 +2,29 @@ package app;
 
 public class Main {
 
+    static int a;
+    static int b;
+    static int c;
+    static int d;
+    static int e;
+    static double f;
+
     public static void main(String[] args) {
         System.out.println("My app for Users!");
         System.out.println("Version 1.0");
-        int a = 8;
-        int b = 2;
-        int c = add(a, b);
+        a = 8;
+        b = 2;
+        c = add(a, b);
         System.out.println(c);
-        int d = multiply(a, b);
+        d = multiply(a, b);
         System.out.println(d);
 
         //subtraction
-        int e = subtract(a, b);
+        e = subtract(a, b);
         System.out.println(e);
 
         //division
-        double f = division(a, b);
+        f = division(a, b);
         System.out.printf("%.3f%n", f);
     }
 
