@@ -15,6 +15,10 @@ public class Main {
         //subtraction
         int e = subtract(a, b);
         System.out.println(e);
+
+        //division
+        double f = division(a, b);
+        System.out.printf("%.3f%n", f);
     }
 
     private static int add(int a, int b) {
@@ -27,5 +31,13 @@ public class Main {
 
     private static int subtract(int a, int b) {
         return (a - b);
+    }
+
+    private static double division(int a, int b) {
+        if (b != 0) {
+            return ((double) a / b);
+        } else {
+            return 0;
+        }
     }
 }
